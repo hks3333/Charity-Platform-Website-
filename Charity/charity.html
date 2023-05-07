@@ -1,0 +1,98 @@
+<!DOCTYPE html>   
+<html lang="en">
+<link rel="stylesheet" href="charity.css">
+<script src="index.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="charity.js"></script>
+    <title>Charities</title>
+    <link rel="icon" type="image/png" href="images/phoenix.png"/>
+</head>
+<body>
+    <div id="overlay">
+        <div class="overlay-stuff">
+            <div class="overlay-start">
+                <h2 id="overlay-h2"></h2>
+                <button onclick="popdown()"><img src="images/close.png"></button>
+            </div>
+            <p id="overlay-p"></p>
+            <div class="overlay-last">
+                <input type="number" id="money" placeholder="5">
+                $
+                <button class="donate-btn" onclick="calculate()">Donate Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="first">
+            <div class="first-start">
+                <img class="ph" src="images/phoenix.png">
+                <button class="home"><a href="index.html">The Phoenix Initiative</a></button>
+                
+            </div>
+            <div class="midline">
+                <div class="midline-1"></div>
+                <div class="midline-2"></div>
+                <div class="midline-3"></div>
+                <div class="midline-4"></div>
+                <div class="midline-5"></div>
+                <div class="midline-6"></div>
+                <div class="midline-7"></div>
+            </div>
+            <div class="first-end">
+                <button class="about-button"><a href="index.html">Home</a></button>
+                <button class="charity-button"><a href="charity.html">Charities</a></button>
+                <button class="contact-button"><a href="contact.html">Contact Us</a></button>
+            </div>
+        </div>
+        <div class="charities">
+            <div class="char-1">
+                <img class="char-1-img" src="images/char1.jpeg">
+                <p class="char-name">Amrita Foundation</p>
+                <button class="char-btn" onclick="char1()">Learn More</button>
+            </div>
+            <div class="char-2">
+                <img class="char-2-img" src="images/char2.jpg">
+                <p class="char-name">Giving Heart Foundation</p>
+                <button class="char-btn" onclick="char2()">Learn More</button>
+            </div>
+            <div class="char-3">
+                <img class="char-3-img" src="images/char3.jpg">
+                <p class="char-name">Benevolent Hearts Charity</p>
+                <button class="char-btn" onclick="char3()">Learn More</button>
+            </div>
+            <div class="char-4">
+                <img class="char-4-img" src="images/char4.jpg">
+                <div class="arranger">
+                    <p class="char-name-1">Empowerment Works Charity</p>
+                    <button class="char-btn-sp" onclick="char4()">Learn More</button>
+                </div>
+            </div>
+            <div class="char-5">
+                <img class="char-5-img" src="images/char5.jpg">
+                <p class="char-name">Sustain Hope Charity</p>
+                <button class="char-btn" onclick="char5()">Learn More</button>
+            </div>
+            <div class="char-6">
+                <img class="char-6-img" src="images/char6.jpg">
+                <p class="char-name">Resilience Rises Foundation</p>
+                <button class="char-btn" onclick="char6()">Learn More</button>
+            </div>
+            <div class="char-7">
+                <img class="char-7-img" src="images/char7.jpg">
+                <p class="char-name">Brighter Horizons Charity</p>
+                <button class="char-btn" onclick="char7()">Learn More</button>
+            </div>
+            <div class="char-8">
+                <img class="char-4-img" src="images/char8.jpg">
+                <div class="arranger">
+                    <p class="char-name-1">Catalyst for Change Charity</p>
+                    <button class="char-btn-sp" onclick="char8()">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
