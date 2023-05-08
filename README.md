@@ -1,2 +1,2 @@
 ## Theme: Charity platform Website
-## Consequence: Remove colours in the website
+## Consequence: No colours to be used in website
